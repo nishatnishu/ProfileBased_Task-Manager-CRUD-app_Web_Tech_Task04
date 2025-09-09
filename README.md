@@ -1,4 +1,5 @@
 Profile-Based Task Manager CRUD App – Web Tech Task 04
+
 📌 Description
 
 This project is an enhanced Task Manager Application built with Node.js, Express.js, and MySQL.
@@ -36,7 +37,7 @@ Filter tasks by status.
 
 Each task linked to its owner.
 
-Password Reset with Email Verification ✅
+Password Reset with Email Verification 
 
 Users can request password reset via email.
 
@@ -79,7 +80,9 @@ Nodemailer (for email verification)
 └── README.md        # Documentation
 
 🔑 API Endpoints
+
 Authentication
+
 
 POST /auth/register → Register new user
 
@@ -90,6 +93,7 @@ POST /auth/request-reset → Request password reset (sends email)
 POST /auth/reset-password/:token → Reset password using token
 
 Task Management
+
 
 POST /tasks → Create new task (authenticated)
 
