@@ -69,15 +69,25 @@ Nodemailer (for email verification)
 
 📂 Project Structure
 ├── config/          # Database & mail configuration
+
 ├── controllers/     # Route controllers (auth, task, reset logic)
+
 ├── database/        # MySQL database dump
+
 ├── middleware/      # Authentication & authorization middlewares
+
 ├── routes/          # API route definitions
+
 ├── node_modules/    # Dependencies
+
 ├── .env             # Environment variables
+
 ├── index.js         # App entry point
+
 ├── package.json     # Dependencies & scripts
+
 └── README.md        # Documentation
+
 
 🔑 API Endpoints
 
